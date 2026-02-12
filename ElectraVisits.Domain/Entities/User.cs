@@ -1,0 +1,12 @@
+namespace ElectraVisits.Domain.Entities;
+
+public class User
+{
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public string Email { get; set; } = default!;
+    public string PasswordHash { get; set; } = default!;
+    public bool IsActive { get; set; } = true;
+
+    public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+    public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
+}
