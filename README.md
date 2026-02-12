@@ -2,7 +2,9 @@
 
 > Prueba Técnica – Arquitectura Clean / DDD  
 > Backend: .NET 9 + EF Core + SQLite  
-> Frontend: React + TypeScript  
+> Frontend: React + TypeScript
+> Link Backend desplegado : https://electravisits-api-jq-fdf6bkhuetbyfna5.brazilsouth-01.azurewebsites.net/swagger/index.html
+> Link Frontend App funcional: https://agreeable-ocean-01fdfb50f-preview.eastus2.1.azurestaticapps.net/
 
 ---
 
